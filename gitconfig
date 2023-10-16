@@ -1,11 +1,12 @@
 [user]
-	email = talyalev.kirill@gmail.com
-	name = BroccoliPower
+	email = 
+	name = 
 [core]
 	autocrlf = input
 	safecrlf = warn
 	quotepath = off
 [alias]
+  history = log --graph
   ch = checkout
   co = commit
   st = status
@@ -13,4 +14,4 @@
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   type = cat-file -t
   dump = cat-file -p
-  history = log --graph
+  
