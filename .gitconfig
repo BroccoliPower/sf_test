@@ -1,10 +1,11 @@
 [user]
-	email = 
-	name = 
+	email = talyalev.kirill@gmail.com
+	name = BroccoliPower
 [core]
 	autocrlf = input
 	safecrlf = warn
 	quotepath = off
+	editor = vim
 [alias]
   history = log --graph
   ch = checkout
